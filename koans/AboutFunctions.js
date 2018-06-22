@@ -106,7 +106,6 @@ describe("About Functions", function() {
       // An internal comment
       return a * b;
     };
-    var result = 
     expect(multiply.toString()).toBe("function(a, b) {\n\
       // An internal comment\n\
       return a * b;\n\
